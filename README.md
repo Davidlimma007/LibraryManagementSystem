@@ -16,5 +16,8 @@ Este projeto é um sistema de gerenciamento de biblioteca, desenvolvido para fin
 ### **Dia 1: Configuração do Projeto e Ambiente**
 - [x] Configuração do projeto Spring Boot.
 - [x] Inicialização do repositório Git e criação do 'README.md'.
-- [ ] Setup do Docker para PostgreSQL.
-- [ ] Configuração do 'application.properties' para conexão com o banco de dados.
+- [x] Setup do Docker para PostgreSQL.
+- [x] Configuração do 'application.properties' para conexão com o banco de dados.
+
+---
+### **Dia 2:

@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  # O nome do serviço que usaremos para o banco de dados PostgreSQL
+    database:
+      image: postgres:14-alpine
+      restart: always
+      environment:
+        # Nome do banco de dados
+        POSTGRES_DB: librarydb
+        # Usuário do banco de dados
+        POSTGRES_USER: user
+        # Senha do banco de dados
+        POSTGRES_PASSWORD: 1234
+      ports:
+        # Mapeia a porta padrão do PostgreSQL
+        - "5432:5432"
+      volumes:
+        # Garante que os dados persistam mesmo se o container for reiniciado ou removido
+        - pgdata:/var/lib/postgresql/data
+
+# Define o volume para persistência de dados
+volumes:
+    pgdata:
