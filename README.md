@@ -21,3 +21,12 @@ Este projeto é um sistema de gerenciamento de biblioteca, desenvolvido para fin
 
 ---
 ### **Dia 2:
+- [x] Criação da entidade Livro.
+- [x] Criação da entidade abstrata Pessoa.
+- [x] Criação do Enum gênero dos livros.
+- [x] Criação do Enum gênero das pessoas.
+
+---
+### **Dia 3:
+- [ ] Criação da entidade Funcionário.
+- [ ] Criação da entidade Cliente.
