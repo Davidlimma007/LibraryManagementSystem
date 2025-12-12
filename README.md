@@ -20,13 +20,13 @@ Este projeto é um sistema de gerenciamento de biblioteca, desenvolvido para fin
 - [x] Configuração do 'application.properties' para conexão com o banco de dados.
 
 ---
-### **Dia 2:
+### **Dia 2: Modelagem das Entidades (Book e Person) e Enums**
 - [x] Criação da entidade Livro.
 - [x] Criação da entidade abstrata Pessoa.
 - [x] Criação do Enum gênero dos livros.
 - [x] Criação do Enum gênero das pessoas.
 
 ---
-### **Dia 3:
+### **Dia 3: Modelagem das Entidades (Funcionário e Cliente)**
 - [ ] Criação da entidade Funcionário.
 - [ ] Criação da entidade Cliente.
