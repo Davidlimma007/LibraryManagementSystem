@@ -34,4 +34,5 @@ Este projeto é um sistema de gerenciamento de biblioteca, desenvolvido para fin
 
 ---
 ### **Dia 4: Repositórios e Serviços**
-- [ ] Criação dos repositórios JPA para todas as entidades.
+- [x] Criação dos repositórios JPA para todas as entidades.
+- [ ] Implementação do pacote service.
