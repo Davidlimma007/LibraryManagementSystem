@@ -32,6 +32,7 @@ public class User extends Person {
     @Column(name = "total_fines_paid", nullable = false, precision = 10, scale = 2)
     private BigDecimal totalFinesPaid;
 
-    @OneToMany(mappedBy = "user")
+    //Relacionamento onde o usuário pode ter vários empréstimos
+    @OneToMany(mappedBy = "user") //Mapeamento inverso da relação em Borrowing, onde faz referencia ao @ManyToOne user
     private List<Borrowing> borrowings;
 }
