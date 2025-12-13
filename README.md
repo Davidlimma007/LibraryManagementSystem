@@ -35,4 +35,13 @@ Este projeto é um sistema de gerenciamento de biblioteca, desenvolvido para fin
 ---
 ### **Dia 4: Repositórios e Serviços**
 - [x] Criação dos repositórios JPA para todas as entidades.
-- [ ] Implementação do pacote service.
+- [x] criar Exceptions personalizadas para Livro não encontrado e Pessoa Não encontrada.
+- [x] Implementação do pacote service do book (criando o CRUD completo).
+- [x] Implementação do pacote service do employee (criando o CRUD completo).
+- [x] Implementação do pacote service do user (criando o CRUD completo).
+
+---
+### **Dia 5: criação do Controller**
+- [ ] Implementação do pacote controller do book (criando o CRUD completo).
+- [ ] Implementação do pacote controller do employee (criando o CRUD completo).
+- [ ] Implementação do pacote controller do user (criando o CRUD completo).
