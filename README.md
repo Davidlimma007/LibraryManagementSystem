@@ -28,5 +28,10 @@ Este projeto é um sistema de gerenciamento de biblioteca, desenvolvido para fin
 
 ---
 ### **Dia 3: Modelagem das Entidades (Funcionário e Cliente)**
-- [ ] Criação da entidade Funcionário.
-- [ ] Criação da entidade Cliente.
+- [x] Criação da entidade Funcionário.
+- [x] Criação da entidade Cliente.
+- [x] Criação da endidade empréstimo
+
+---
+### **Dia 4: Repositórios e Serviços**
+- [ ] Criação dos repositórios JPA para todas as entidades.
