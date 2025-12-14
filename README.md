@@ -42,6 +42,17 @@ Este projeto é um sistema de gerenciamento de biblioteca, desenvolvido para fin
 
 ---
 ### **Dia 5: criação do Controller**
-- [ ] Implementação do pacote controller do book (criando o CRUD completo).
-- [ ] Implementação do pacote controller do employee (criando o CRUD completo).
-- [ ] Implementação do pacote controller do user (criando o CRUD completo).
+- [x] Implementação do pacote controller do book (criando o CRUD completo).
+- [x] Implementação do pacote controller do employee (criando o CRUD completo).
+- [x] Implementação do pacote controller do user (criando o CRUD completo).
+- [x] Criação do Enum para status do empréstimo (EMPRESTADO, DEVOLVIDO, ATRASADO).
+- [x] Criação da Exception para lista negra e para limite de empréstimos.
+- [x] Criação do BorrowingService para gerenciar empréstimos.
+
+---
+### **Dia 6: Implementação do Empréstimo**
+- [x] Implementação do método para realizar empréstimos no BorrowingService.
+- [ ] Implementação do método para renovar empréstimos no BorrowingService.
+- [ ] Implementação do método para devolver livros no BorrowingService.
+- [ ] Implementação do cálculo de multas por atraso no BorrowingService.
+- [ ] Implementação da punição para usuários com atraso no BorrowingService.

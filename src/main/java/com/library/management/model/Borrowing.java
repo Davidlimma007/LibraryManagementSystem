@@ -1,5 +1,6 @@
 package com.library.management.model;
 
+import com.library.management.enums.BorrowingsStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -37,4 +38,8 @@ public class Borrowing {
     //Data de devolução efetiva do livro
     @Column (nullable = true)
     private LocalDate returnDate;
+
+    @Column(nullable = false)
+    @Enumerated(EnumType.STRING) // Define que o status será armazenado como String no banco de dados
+    private BorrowingsStatus status; // Status do empréstimo
 }
