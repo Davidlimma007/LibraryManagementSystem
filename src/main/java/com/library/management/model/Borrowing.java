@@ -42,4 +42,9 @@ public class Borrowing {
     @Column(nullable = false)
     @Enumerated(EnumType.STRING) // Define que o status será armazenado como String no banco de dados
     private BorrowingsStatus status; // Status do empréstimo
+
+    @Column(nullable = false)
+    private Boolean isRenewed = false; // Indica se o empréstimo foi renovado
+
+    private double currentFine = 0.0; // Multa atual acumulada
 }

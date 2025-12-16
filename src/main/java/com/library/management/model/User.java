@@ -35,4 +35,7 @@ public class User extends Person {
     //Relacionamento onde o usuário pode ter vários empréstimos
     @OneToMany(mappedBy = "user") //Mapeamento inverso da relação em Borrowing, onde faz referencia ao @ManyToOne user
     private List<Borrowing> borrowings;
+
+    @Column(name = "fine_history")
+    private double fineHistory = 0.0;
 }
