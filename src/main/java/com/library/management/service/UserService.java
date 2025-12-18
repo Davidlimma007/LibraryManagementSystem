@@ -47,7 +47,6 @@ public class UserService {
         return userRepository.save(user); // Salva as alterações no banco de dados
     }
 
-
     //Delete
     // Método para deletar um usuário por ID
     public void deleteUser(Long id){

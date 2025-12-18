@@ -3,6 +3,7 @@ package com.library.management.service;
 
 import com.library.management.exception.BookNotFoundException;
 import com.library.management.model.Book;
+import com.library.management.model.Borrowing;
 import com.library.management.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -21,6 +21,9 @@ public class BorrowingService {
     private final UserService userService; // Serviço para gerenciar operações relacionadas a usuários
     private final BookService bookService; // Serviço para gerenciar operações relacionadas a livros
 
+    private final User user;
+    private final Borrowing borrowing;
+
     private final double dailyFineRate = 2.50; // Multa diária por atraso na devolução
     private final double fixedFineFee = 50.0; // Taxa fixa de multa
 
@@ -133,6 +136,9 @@ public class BorrowingService {
             double finePerDay = daysOverdue * dailyFineRate; // Cálculo da multa por dia de atraso
             double fine = finePerDay + fixedFineFee; // Cálculo da multa total
             borrowing.setCurrentFine(fine); // Atualizar a multa atual do empréstimo
+            user.setIsBlacklisted(true); // Atualiza o nome do user na lista negra
+            user.setFineHistory(user.getFineHistory() + fine); // Atualiza o histórico de multas
+            userService.saveUser(user);
         }
 
         //4. ATUALIZAR o registro de EMPRÉSTIMO

@@ -56,4 +56,9 @@ Este projeto é um sistema de gerenciamento de biblioteca, desenvolvido para fin
 - [x] Implementação do método para devolver livros no BorrowingService.
 - [x] Criação da constante para o valor da multa por atraso.
 - [x] Implementação do cálculo de multas por atraso no BorrowingService.
-- [ ] Implementação da punição para usuários com atraso no BorrowingService.
+
+---
+### **Dia 7: Correção e criação de novas entidades**
+- [x] Criação da entidade Fine.
+- [x] Criação do FineService e do FineRepository.
+- [ ] Adequação do BorrowingService pára retirar responsabilidades e mandar para o FineService
